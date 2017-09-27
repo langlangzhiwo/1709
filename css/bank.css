@@ -1,0 +1,217 @@
+/*样式初始华*/
+body{
+    margin:0 auto;
+    max-width:640px;
+    min-width:320px;
+    height:100%;
+    background: #171C4C;
+}
+div,p,ul,li,h1,h2,h3,h4,h5,h6,img,span {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-text-size-adjust:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    font: 1em/2em "PingFangSC-Regular";
+    color: #fff;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+h2 {
+    height: 3em;
+    line-height: 3em;
+    font-size: 1em;
+    text-align: center;
+    color: #1E93FF;
+    background: #171C4C;
+    margin:  0 auto;
+    border: 1px solid;
+    border-image: -webkit-linear-gradient(#00a8ff,#5e36df);
+    border-image: -moz-linear-gradient( #00a8ff,#5e36df);
+    border-image: linear-gradient( #00a8ff,#5e36df);
+}
+
+/*版心*/
+.w {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.clearfix::before,
+.clearfix::after {
+    display: block;
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.sign {
+    width: 100%;
+    height: 162px;
+    background: url(../images/CUNGUAN_01.png) no-repeat;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+
+/*资金安全升级*/
+.promotion {
+    margin-bottom: 10%;
+}
+.promotion .title {
+    width: 24em;
+}
+.promotion .content {
+    background: #122459;
+    border: 1px solid #122459;
+    padding: 40px 12px 26px 12px;
+    margin-top: -1.5em;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 3px 3px 2px #000;
+    -moz-box-shadow: 3px 3px 2px #000;
+    box-shadow: 3px 3px 2px #000;
+
+}
+
+/*存管好处*/
+.advantage {
+    /*margin: 150pt 0 30pt 0;*/
+}
+.advantage h2 {
+    width: 16em;
+    background: url(../images/CUNGUAN_07.png);
+    background-size: cover;
+}
+.advantage .items {
+    margin: 10pt 0;
+}
+.items .item {
+    width: 30%;
+    border: 1px solid #1D87EC;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    padding: 1em 0.5em 0 0.5em;
+    height: 15em;
+}
+.items .item:nth-child(1) {
+    margin-left: 0;
+}
+.item h3 {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+.item img {
+    width: 100%;
+}
+.item p {
+    text-align: left;
+    margin-top: 10%;
+}
+
+/*存管模式*/
+.mode {
+    margin: 10% 0;
+}
+.mode .title {
+    width: 12em;
+}
+.mode .qianshi {
+    background: #122459;
+    padding: 10% 0;
+    margin-top: -7%;
+    -webkit-box-shadow: 3px 3px 2px #000;
+    -moz-box-shadow: 3px 3px 2px #000;
+    box-shadow: 3px 3px 2px #000;
+}
+.qianshi p {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.qianshi img {
+    width: 90%;
+    display: block;
+    margin: 5% auto;
+}
+/*接入进程*/
+.process {
+    margin: 20% 0 10% 0;
+}
+.process .part1 {
+    background: #122459;
+    padding: 20px 0;
+    -webkit-box-shadow: 3px 3px 2px #000;
+    -moz-box-shadow: 3px 3px 2px #000;
+    box-shadow: 3px 3px 2px #000;
+}
+.part1 img {
+    display: block;
+    width: 90%;
+}
+
+.process .part2 {
+    background: #122459;
+    margin: 4em 0;
+    padding: 20px 0;
+    -webkit-box-shadow: 3px 3px 2px #000;
+    -moz-box-shadow: 3px 3px 2px #000;
+    box-shadow: 3px 3px 2px #000;
+}
+.part2 img {
+    display: block;
+    margin: 0 auto;
+}
+.title, .title0 {
+    display: block;
+    margin: 0 auto;
+}
+.process .title {
+    width: 13em;
+    margin: -3em auto 3em auto;
+}
+.part2 .title {
+    width: 12em;
+}
+.part2 .bank {
+    margin: 15pt auto;
+    width: 50%;
+}
+.part2 p {
+    padding: 3%;
+    letter-spacing: 1px;
+}
+
+/*存管协议*/
+.agreement  {
+
+}
+.agreement .title {
+    width: 12em;
+}
+.agreement .show {
+    width: 100%;
+    background: #122459 ;
+    padding: 20px 0;
+    -webkit-box-shadow: 3px 3px 2px #000;
+    -moz-box-shadow: 3px 3px 2px #000;
+    box-shadow: 3px 3px 2px #000;
+    margin: -1.5em auto 1em auto;
+}
+.show img {
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
